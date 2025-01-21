@@ -4,6 +4,7 @@ module.exports = {
     "./src/**/*.{html,ts}",  // Scans all HTML and TS files in src directory
     "./src/app/login/*.{html,ts}",
     "./src/app/signup/*.{html,ts}",
+    "./src/app/mainpage/*.{html,ts}",
   ],
   theme: {
     extend: {},

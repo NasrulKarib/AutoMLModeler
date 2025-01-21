@@ -41,6 +41,7 @@ export class LoginComponent {
         this.cookieService.set('access_token', response.access, {expires: 1}); // expires in 1 day
         this.cookieService.set('refresh_token', response.access, {expires: 7}); // expires in 7 days
         // Redirect to dashboard or another page
+        this.router.navigate(['/mainpage']);
       },
       error => {
         console.log();
